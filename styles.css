@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    font-size: 18px;
 }
 body{
     background-color: white;
@@ -61,7 +62,7 @@ body{
 #intro2{
     background-color: #fbfbfb;
     flex-direction: column;
-    margin-inline: 17rem;
+    margin:0 18rem;
 }
 #GPay{
     font-size: 1.7rem;
@@ -78,9 +79,53 @@ body{
     display: flex;
     text-align: center;
     margin-top: 9rem;
+    margin-inline: 8rem;
 }
 .First{
     font-size: 1.2rem;
     line-height: 1.5rem;
     margin-bottom: 2px;
+    margin-top: 15px;
+}
+.icons{
+    width: 150px;
+}
+.angle{
+    padding-inline: 1rem;
+}
+#initiate img{
+    padding: 30px;
+}
+#forget img{
+    padding: 30px;
+}
+#trust{
+    background-color: #092a54;
+    color: white;
+    padding-inline: 15rem;
+    padding-block: 10rem;
+    display: flex;
+}
+#text h1{
+    font-size: 2.5rem;
+}
+#text p{
+    font-weight: normal;
+}
+#text{
+    padding-right: 18rem;
+}
+#investors{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 7rem;
+}
+#compLogo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#compLogo img{
+    padding: 100px;
 }
